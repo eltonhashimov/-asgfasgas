@@ -1,4 +1,5 @@
 
+// top brand start>>>>>>>>>>.
 #top-brands{
     padding: 1.5rem 0px 0px 0px;
     position: relative;
@@ -32,15 +33,9 @@
     
     
 }
-
-
-
-// top-brands fınısshhhh**************************
-
-
+// top brand finish>>>>>>>>>
 
 // popular(section) start *************************
-
 .popular{
     width: 100%;
     padding: 30px 0px;
@@ -152,9 +147,9 @@
 
 
 }
-
 // POPULAR (SECTİON) SONN ********************************
 
+// flash start>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 .flash-sale{
     width: 100%;
     height: 70vh;
@@ -365,10 +360,9 @@
 
     }
 }
+// FLASH SALE FINISH >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-// FLASH SALE FINISH -------------------------------------
 // FEATURED CATAGORİES START ----------------------------
-
 .featured{
     width: 100%;
     height: 100vh;
@@ -377,7 +371,7 @@
 .featured-head{
     text-align: center;
     width: 100%;
-    padding-top:20px     ;
+    // padding-top:20px     ;
     h1{
         text-align: center;
         font-size: 25px;
@@ -402,9 +396,10 @@
         transition: 0.3s ease-in-out;
         height: 100%;
         background-color: #fff;
-        margin: 0px 0px ;
+        // margin: 0px 0px ;
         box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.105);
         border-radius: 10px;
+        // margin-bottom: ;
         &:hover{
             transform: translateY(-15px);
         }
@@ -489,15 +484,15 @@
         }
     }
 }
+// featured finish>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-
-
-
-
+// new pro start>>>>>>>>>>>>>>>
 .new-pro{
     width: 100%;
-    height: 80vh;
-    // padding-top: 5%;
+    // height: 80vh;
+    padding-top: 0%;
+    padding-bottom: 4%;
+   
 
   .new-img{
       position: relative;
@@ -685,13 +680,13 @@
 
    
 }
-
 // new-pro fınıshhhhhhhhhhhhh-------------------------------------
-// ********************************************************
 
+// .hero section start********************************************************
 .hero-section{
     width: 100%;
-    height: 60vh;
+    height: 70vh;
+    // padding: 10% 0;
     background-image: url(https://cdn.shopify.com/s/files/1/0272/1962/4029/files/banner-overlay-text2.jpg?v=1573121281);
     background-repeat: no-repeat;
     background-size: cover;
@@ -836,14 +831,14 @@
         }
     }
 }
+// hero section finish>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-// HEROOOO FINSHH --------------------------
-
+// top rated start>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
 .top-rated{
     width: 100%;
-    height: 70vh;
-    padding-bottom: 20px;
+    height: 75vh;
+    padding: 4% 0%;
     // hr{
     //     margin-left: 15px;
     // }
@@ -895,6 +890,10 @@
     .elton{
         .rated-img{
             position: relative;
+
+            img{
+                width: 100%;
+            }
           
          .custom-rated{
              position: absolute;
@@ -1006,7 +1005,7 @@
                 padding: 20px 0px;
             }
             .rated-select{
-                width:80%;
+                width:100%;
                 display: inline-flex;
                 
                 background-color: transparent;
@@ -1063,10 +1062,9 @@
     }
 
 }
-
 // top-rated fınısh----------------------------------
-// **************************************
 
+// more departments**************************************
 .more-departments{
     width: 100%;
     height: 100vh;
@@ -1473,10 +1471,13 @@
 
 
 }
+// more departments>>>>>>>>>>>>>>>>>>>>>>>
 
+//blog start>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>. 
 .blog-posts{
     width: 100%;
     height: 100vh;
+    padding-top: 4%;
     position: relative;
     .blog-title{
         h1{
@@ -1581,6 +1582,8 @@
     }
 
 }
+//blog finish>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>. 
+
 
 @import '_responsive';
 
